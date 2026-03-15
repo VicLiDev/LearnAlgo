@@ -65,12 +65,12 @@ h_t = [h_t_forward; h_t_backward]
 
 ## 6. 应用场景
 
-| 应用 | 模型 |
-|------|------|
-| 文本分类 | BiLSTM |
+| 应用     | 模型                |
+|----------|---------------------|
+| 文本分类 | BiLSTM              |
 | 机器翻译 | Seq2Seq + Attention |
-| 语音识别 | CTC + LSTM |
-| 时间序列 | LSTM/GRU |
+| 语音识别 | CTC + LSTM          |
+| 时间序列 | LSTM/GRU            |
 
 ## 7. 训练技巧
 
