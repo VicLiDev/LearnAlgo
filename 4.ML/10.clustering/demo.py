@@ -5,6 +5,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 from sklearn.datasets import make_blobs, make_moons, make_circles
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering, SpectralClustering
 from sklearn.mixture import GaussianMixture
@@ -13,9 +14,6 @@ from sklearn.metrics import silhouette_score, calinski_harabasz_score, davies_bo
 import warnings
 warnings.filterwarnings('ignore')
 
-# 设置中文字体
-plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
-plt.rcParams['axes.unicode_minus'] = False
 
 
 def generate_datasets():

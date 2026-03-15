@@ -4,9 +4,10 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 import time
 
-plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
+plt.rcParams['font.sans-serif'] = ['Noto Sans CJK SC', 'DejaVu Sans']
 plt.rcParams['axes.unicode_minus'] = False
 
 

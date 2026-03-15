@@ -3,6 +3,7 @@
 """
 import numpy as np
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 
 
 def full_search(reference, current, block_size=16, search_range=16):

@@ -11,6 +11,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 from sklearn.datasets import make_classification, make_regression, load_breast_cancer, load_diabetes
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.preprocessing import StandardScaler
@@ -24,7 +25,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # 设置中文显示
-plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
+plt.rcParams['font.sans-serif'] = ['Noto Sans CJK SC', 'DejaVu Sans']
 plt.rcParams['axes.unicode_minus'] = False
 
 # 检查是否有XGBoost和LightGBM

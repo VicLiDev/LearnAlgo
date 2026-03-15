@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learnai-tools"
+version = "0.1.0"
+description = "Learn AI tools"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]

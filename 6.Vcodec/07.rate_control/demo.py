@@ -3,6 +3,7 @@
 """
 import numpy as np
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 
 
 def crf_to_qp(crf):

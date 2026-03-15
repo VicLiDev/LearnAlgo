@@ -12,6 +12,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 from collections import defaultdict
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import mean_squared_error
@@ -19,7 +20,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # 设置中文显示
-plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
+plt.rcParams['font.sans-serif'] = ['Noto Sans CJK SC', 'DejaVu Sans']
 plt.rcParams['axes.unicode_minus'] = False
 
 

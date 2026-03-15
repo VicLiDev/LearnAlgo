@@ -3,6 +3,7 @@
 """
 import numpy as np
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 
 
 def intra_prediction_4x4(block, mode):

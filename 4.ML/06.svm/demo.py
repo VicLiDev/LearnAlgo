@@ -5,6 +5,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 from sklearn import svm
 from sklearn.datasets import load_iris, load_wine, make_classification, make_regression
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
@@ -14,9 +15,6 @@ from sklearn.metrics import (accuracy_score, classification_report,
 import warnings
 warnings.filterwarnings('ignore')
 
-# 设置中文字体
-plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
-plt.rcParams['axes.unicode_minus'] = False
 
 
 def make_meshgrid(x, y, h=.02):

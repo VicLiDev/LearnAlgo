@@ -4,6 +4,7 @@
 import numpy as np
 from scipy.fftpack import dct, idct
 import matplotlib.pyplot as plt
+from t01_mpl import chinese_font
 from PIL import Image
 
 
